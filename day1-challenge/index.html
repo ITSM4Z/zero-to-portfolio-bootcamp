@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>محمد مساعد | portfolio</title>
+  <meta name="description" content="الموقع الشخصي لطالب علوم الحاسب محمد مساعد — عرض المهارات، المشاريع الجامعية والتقنية، وروابط التواصل.">
+
+  <!-- Link preview card (Open Graph) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="محمد مساعد | طالب علوم حاسب">
+  <meta property="og:description" content="تعرف على مهاراتي ومشاريعي في تطوير الويب، البرمجة، والأنظمة الذكية.">
+  <meta property="og:image" content="https://M7md-3947.github.io/portfolio/assets/og-image.png">
+
+  <!-- Site icon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- IBM Plex Sans Arabic from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="container nav-bar" aria-label="التنقل الرئيسي">
+      <a class="brand" href="#hero">محمد مساعد</a>
+      <ul class="nav-links">
+        <li><a href="#about">عنّي</a></li>
+        <li><a href="#skills">المهارات</a></li>
+        <li><a href="#projects">المشاريع</a></li>
+        <li><a href="#contact">التواصل</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="hero" class="hero">
+      <div class="container hero-content">
+        <span class="greeting-badge">أهلاً بك في موقعي الشخصي</span>
+        <h1>محمد مساعد</h1>
+        <p class="hero-role">طالب علوم حاسب احب التطوير والبرمجة وكل ما يخص التقنية شغوف لتعلم كل جديد</p>
+        <p class="hero-bio">
+          أحب تحويل الأفكار ومشاريع المقررات الجامعية إلى تطبيقات ومواقع واضحة وسريعة تعمل بسلاسة على الجوال والكمبيوتر.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">شاهد مشاريعي</a>
+          <a href="assets/cv.pdf" class="btn btn-outline" download>حمّل سيرتي الذاتية</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About (Bento grid) -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">عنّي</h2>
+        <div class="bento-grid">
+          <article class="bento-card bento-wide">
+            <h3>نبذة مختصرة</h3>
+            <p>
+              طالب في كلية الحاسب شغوف بالبرمجة وبناء المشاريع التقنية من الصفر. أركز على كتابة كود نظيف ومفهوم،
+              وأشارك في الأندية الطلابية وورش العمل لتبادل المعرفة مع زملائي.
+            </p>
+          </article>
+
+          <article class="bento-card bento-photo">
+            <img class="avatar" src="assets/images/avatar.webp" alt="صورة شخصية لمحمد مساعد" width="400" height="400">
+            <strong>محمد مساعد</strong>
+          </article>
+
+          <article class="bento-card">
+            <h3>الجامعة والتخصص</h3>
+            <p>بكالوريوس علوم الحاسب — جامعة أم القرى.</p>
+          </article>
+
+          <article class="bento-card">
+            <h3>أتعلم حالياً</h3>
+            <p>تطوير واجهات الويب التفاعلية، هياكل البيانات، والانابيب الصوتية (Audio pipelines).</p>
+          </article>
+
+          <article class="bento-card">
+            <h3>اهتماماتي</h3>
+            <p>تعلم الآلة (ML)، تصميم واجهات بسيطة، والعمل الجماعي في الهاكاثونات.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills"></section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">المشاريع</h2>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <img class="project-img" src="assets/images/gpa.webp" alt="حاسبة المعدل التراكمي" width="800" height="450" loading="lazy">
+            <div class="project-body">
+              <h3 class="project-title">حاسبة المعدل التراكمي</h3>
+              <p class="project-desc">أداة ويب لحساب المعدل الفصلي والتراكمي حسب عدد الساعات المعتمدة والتقديرات.</p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a class="project-link demo-link" href="https://M7md-3947.github.io/gpa-calculator" target="_blank" rel="noopener">معاينة المشروع</a>
+                <a class="project-link code-link" href="https://github.com/M7md-3947/gpa-calculator" target="_blank" rel="noopener">الكود على GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img class="project-img" src="assets/images/planner.webp" alt="منظم الدراسة الذكي" width="800" height="450" loading="lazy">
+            <div class="project-body">
+              <h3 class="project-title">منظم الدراسة الذكي</h3>
+              <p class="project-desc">تطبيق بسيط لترتيب مهام المقررات الجامعية وتوزيع ساعات المذاكرة قبل الاختبارات.</p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a class="project-link demo-link" href="https://M7md-3947.github.io/study-planner" target="_blank" rel="noopener">معاينة المشروع</a>
+                <a class="project-link code-link" href="https://github.com/M7md-3947/study-planner" target="_blank" rel="noopener">الكود على GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img class="project-img" src="assets/images/iot-energy.webp" alt="لوحة تحكم طاقة ذكية" width="800" height="450" loading="lazy">
+            <div class="project-body">
+              <h3 class="project-title">لوحة تحكم طاقة ذكية</h3>
+              <p class="project-desc">نموذج إنترنت أشياء يقرأ شدة الإضاءة ويتحكم بالطاقة مع لوحة متابعة لآخر العمليات.</p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">ESP32</span>
+                <span class="tag">IoT</span>
+              </div>
+              <div class="project-links">
+                <a class="project-link demo-link" href="https://M7md-3947.github.io/taqeh-tech" target="_blank" rel="noopener">معاينة المشروع</a>
+                <a class="project-link code-link" href="https://github.com/M7md-3947/taqeh-tech" target="_blank" rel="noopener">الكود على GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact"></section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 محمد مساعد — مبني ضمن معسكر من الصفر إلى البورتفوليو</p>
+    </div>
+  </footer>
+</body>
+</html>
